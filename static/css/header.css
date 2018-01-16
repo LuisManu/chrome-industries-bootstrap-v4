@@ -1,0 +1,90 @@
+header {
+	font-family: akzidenz-grotesk,akzidenz-grotesk,helvetica,sans-serif;
+}
+/* =============================
+	Desktop nav
+============================= */
+#logo-header {
+	width: 85px;
+}
+#nav-top {
+	font-size: 0.6rem;
+	font-weight: 500;
+	border-bottom: 1px solid #333;
+}
+#nav-top-inner {
+	color: #777;
+}
+#nav-top-inner a:hover {
+	color: #cc092f;
+}
+#nav-second {
+	font-size: 0.7rem;
+}
+#nav-second-inner a span:hover {
+	border-bottom: 4px solid #cc092f;
+	color: #cc092f !important;
+}
+.dropdown-product-categories a:hover {
+	color: #cc092f !important;
+}
+#nav-second-inner .dropdown-menu {
+	background-color: #efefef;
+}
+.dropdown-product-categories {
+	border-bottom: 1px solid #dcdcdc;
+}
+.dropdown-product-categories .row .col-lg-2 {
+	border-right: 1px solid #dcdcdc;
+}
+.dropdown-product-categories a div:nth-child(2) {
+	border-bottom: 2px solid #cc092f;
+    -webkit-transition: width 0.5s;
+    transition: width 0.5s;
+}
+.dropdown-product-categories a div:nth-child(2) {
+	width: 10% !important;
+}
+.dropdown-product-categories a:hover div:nth-child(2) {
+	width: 15% !important;
+}
+.dropdown-product-categories a div:nth-child(1) {
+    -moz-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.dropdown-product-categories a:hover div:nth-child(1) {
+	padding-bottom: 0.5rem !important;
+	padding-top: 0 !important;
+}
+.dropdown-submenu .row .col-lg-3 a div {
+	background-position: center center;
+	background-size: 110% 110%;
+
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.dropdown-submenu .row .col-lg-3 a:hover div {
+	background-size: 100% 100%;
+}
+.dropdown-submenu .row .col-lg-3 a:hover .d-flex.align-items-center.h-100 {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+/* ==================================
+	Mobile nav
+================================== */
+#logo-header-mobile {
+	width: 150px;
+}
+#mobile-menu-accordion li {
+	border-bottom: 1px solid #292929 !important;
+}
+#mobile-menu-accordion li div,
+.nav-link .material-icons {
+	opacity: .5;
+}
+/*this line makes dropdown show on hover.*/
+.dropdown:hover .dropdown-menu {
+   display: block;
+}

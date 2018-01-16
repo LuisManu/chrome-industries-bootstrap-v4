@@ -1,0 +1,41 @@
+/* =====================================
+	Global custom
+===================================== */
+html {
+  /*overflow-y: scroll;*/
+  height: 200%;
+}
+a {
+	/*text-decoration: none;*/
+}
+a:hover {
+	text-decoration: none;
+}
+
+.font-size-07 {
+	font-size: 0.7rem;
+}
+.letter-spacing-08 {
+	letter-spacing: .08rem;
+}
+.letter-spacing-2 {
+	letter-spacing: 2px;
+}
+
+
+/*a:hover > .mb-2 {
+	margin-bottom: 1rem !important;
+}*/
+.bg-grey {
+	background-color: #2c2c2c;
+}
+/* ===================================
+	Bootstrap override
+=================================== */
+.bg-dark {
+	background-color: #191919 !important;
+}
+.btn-dark {
+	background: #262626;
+}
+
