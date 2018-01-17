@@ -74,6 +74,11 @@ header {
 /* ==================================
 	Mobile nav
 ================================== */
+#mobile-header .navbar ul li button:hover,
+#mobile-header .navbar ul li button:focus  {
+	background-color: #191919 !important;
+	box-shadow: none;
+}
 #logo-header-mobile {
 	width: 150px;
 }
