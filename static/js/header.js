@@ -61,6 +61,8 @@ var cbpAnimatedHeader = (function() {
 		}
 		$(this).find('.material-icons').html(menuButtonState);
 		$(this).toggleClass('bg-grey');
+		$(this).toggleClass('mx-4');
+		$(this).toggleClass('px-4')
 	});
 	
 
