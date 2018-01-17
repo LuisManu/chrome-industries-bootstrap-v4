@@ -82,7 +82,7 @@ header {
 #logo-header-mobile {
 	width: 150px;
 }
-#mobile-menu-accordion li a,
+#mobile-menu-accordion li .nav-link,
 .mobile-menu-accordion-submenu ul:first-child {
 	border-bottom: 1px solid #292929 !important;
 }
