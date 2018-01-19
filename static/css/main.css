@@ -33,7 +33,17 @@ a:hover {
 .letter-spacing-2 {
 	letter-spacing: 2px;
 }
-
+.line-height-09 {
+	line-height: .9;
+}
+.valign {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    white-space: nowrap;
+}
 
 /*a:hover > .mb-2 {
 	margin-bottom: 1rem !important;
