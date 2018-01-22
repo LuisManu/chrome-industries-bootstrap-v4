@@ -95,7 +95,7 @@ header {
 }
 #mobile-collapse {
 	overflow-y: scroll;
-	max-height: 100vh;
+	max-height: 86vh;
 }
 #mobile-collapse #mobile-menu-accordion li .nav-link,
 #mobile-collapse #mobile-menu-accordion-submenu ul:first-child {
