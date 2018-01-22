@@ -105,7 +105,7 @@ header {
 }
 /*this line makes dropdown show on hover.*/
 .dropdown:hover .dropdown-menu {
-   /*display: block;*/
+   display: block;
 }
 .navbar-search {
 	/*font-size: .8rem;*/
