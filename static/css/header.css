@@ -93,14 +93,18 @@ header {
 #logo-header-mobile {
 	width: 150px;
 }
-#mobile-menu-accordion li .nav-link,
-.mobile-menu-accordion-submenu ul:first-child {
+#mobile-collapse {
+	overflow-y: scroll;
+	max-height: 100vh;
+}
+#mobile-collapse #mobile-menu-accordion li .nav-link,
+#mobile-collapse #mobile-menu-accordion-submenu ul:first-child {
 	border-bottom: 1px solid #292929 !important;
 }
 
 #mobile-menu-accordion li div,
-.nav-link .material-icons,
-.mobile-menu-accordion-submenu {
+#mobile-menu-accordion .nav-link .material-icons,
+#mobile-menu-accordion-submenu {
 	opacity: .5;
 }
 /*this line makes dropdown show on hover.*/
