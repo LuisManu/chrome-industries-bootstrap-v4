@@ -1,5 +1,7 @@
 body {
 	font-family: akzidenz-grotesk,akzidenz-grotesk,helvetica,sans-serif;
+	color: #191919;
+	padding-top: 6.9rem;
 }
 /* =====================================
 	Global custom
@@ -8,9 +10,17 @@ html {
   /*overflow-y: scroll;*/
   height: 200%;
 }
+main,
+footer,
+footer input {
+	background-color: #efefef !important;
+}
 a:hover {
 	text-decoration: none;
 	color: inherit;
+}
+.text-grey {
+	color: #777;
 }
 .font-size-07 {
 	font-size: 0.7rem;
@@ -45,22 +55,25 @@ a:hover {
 .letter-spacing-3 {
 	letter-spacing: .3rem;
 }
+.line-height-1 {
+	line-height: 1;
+}
+.line-height-16 {
+	line-height: 1.6;
+}
 .line-height-2 {
 	line-height: 2;
 }
 .line-height-09 {
 	line-height: .9;
 }
-.opacity-5 {
+/*.opacity-5 {
 	opacity: .5;
-}
-main {
-	background-color: #efefef;
-}
-/*.main-area {
-    padding-top: 9.55rem;
-    padding-left: 7.7rem;
 }*/
+.bb-red,
+.dropdown-product-categories a div:nth-child(2) {
+	border-bottom: 2px solid #cc092f
+}
 .tagline {
     font-family: akzidenz-grotesk-condensed,akzidenz-grotesk,helvetica,sans-serif;
 }
@@ -81,6 +94,20 @@ main {
 	display: inline-block;
 	vertical-align: middle;
 
+    -moz-transition: all .25s cubic-bezier(.4,.01,.1,1);
+    -webkit-transition: all .25s cubic-bezier(.4,.01,.1,1);
+    transition: all .25s cubic-bezier(.4,.01,.1,1);
+}
+.mt-n-47 {
+	margin-top: -47px;
+}
+.mt-n-80 {
+	margin-top: -80px;
+}
+
+.mt-n-47,
+.mt-n-80,
+.mt-0 {
     -moz-transition: all .25s cubic-bezier(.4,.01,.1,1);
     -webkit-transition: all .25s cubic-bezier(.4,.01,.1,1);
     transition: all .25s cubic-bezier(.4,.01,.1,1);
