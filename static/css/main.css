@@ -144,6 +144,9 @@ a:hover {
 .bg-dark {
 	background-color: #191919 !important;
 }
+.bg-secondary {
+	background-color: #efefef !important;
+}
 .btn-dark {
 	background: #262626;
 }

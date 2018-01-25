@@ -784,7 +784,7 @@
           <div class="container-fluid">
             <div class="row">
               <div class="col-md-5 p-0 h6 font-weight-bold tagline letter-spacing-2">JOIN THE CHROME NEWSLETTER</div>
-              <div class="col-md-7 p-0">
+              <div class="col-md-7 d-none d-sm-block p-0">
                 <form>
                   <div class="input-group mb-3 px-2 pb-2">
                     <input class="form-control border-0 pt-0" type="email" required>
@@ -794,6 +794,14 @@
                         SUBSCRIBE
                       </button>
                     </div>
+                  </div>
+                </form>
+              </div>
+
+              <div class="col-md-7 d-sm-none p-0">
+                <form>
+                  <div class="input-group mb-3 px-2 pb-2">
+                    <input class="form-control border-dark rounded-0 pb-3 text-center font-size-07" type="email" placeholder="ENTER YOUR EMAIL" required>
                   </div>
                 </form>
               </div>
@@ -889,11 +897,7 @@
 
       <div class="d-sm-none">
         <ul class="list-group list-group-flush text-uppercase font-weight-bold font-size-07" id="mobile-footer-accordion" data-children=".item">
-          <li class="list-group-item item">
-            <!-- <a class="mx-4 py-4" data-toggle="collapse" data-parent="#mobile-footer-accordion" href="#mobile-footer-accordion1" role="button" aria-expanded="false" aria-controls="mobile-footer-accordion1">
-              COMPANY <i class="material-icons float-right font-size-07">add</i>
-            </a> -->
-
+          <li class="list-group-item bg-secondary item">
             <button class="btn w-100" type="button" data-toggle="collapse" data-target="#mobile-footer-accordion1" aria-expanded="false" aria-controls="mobile-footer-accordion1">
               <span class="float-left font-weight-bold font-size-07">COMPANY</span> 
               <i class="material-icons float-right font-weight-bold font-size-07">add</i>
@@ -910,11 +914,48 @@
               <div class="pb-4 animated fadeIn"><a class="text-muted" href="#">GIFT CARDS</a></div>
             </div>
           </li>
+
+          <li class="list-group-item bg-secondary item">
+            <button class="btn w-100" type="button" data-toggle="collapse" data-target="#mobile-footer-accordion1" aria-expanded="false" aria-controls="mobile-footer-accordion1">
+              <span class="float-left font-weight-bold font-size-07">SUPPORT</span> 
+              <i class="material-icons float-right font-weight-bold font-size-07">add</i>
+            </button>
+
+            <div class="p-4 px-5 collapse" id="mobile-footer-accordion1" role="tabpanel">
+              <div class="pb-4 animated fadeIn"><a class="text-muted" href="#">FAQ</a></div>
+              <div class="pb-4 animated fadeIn"><a class="text-muted" href="#">ORDER STATUS</a></div>
+              <div class="pb-4 animated fadeIn"><a class="text-muted" href="#">SHIPPING & RETURNS</a></div>
+              <div class="pb-4 animated fadeIn"><a class="text-muted" href="#">CONTACT US</a></div>
+              <div class="pb-4 animated fadeIn"><a class="text-muted" href="#">STORE LOCATOR</a></div>
+            </div>
+          </li>
+
+          <li class="list-group-item bg-secondary item">
+            <button class="btn w-100" type="button" data-toggle="collapse" data-target="#mobile-footer-accordion1" aria-expanded="false" aria-controls="mobile-footer-accordion1">
+              <span class="float-left font-weight-bold font-size-07">LEGAL</span> 
+              <i class="material-icons float-right font-weight-bold font-size-07">add</i>
+            </button>
+
+            <div class="p-4 px-5 collapse" id="mobile-footer-accordion1" role="tabpanel">
+              <div class="pb-4 animated fadeIn"><a class="text-muted" href="#">PRIVACY POLICY</a></div>
+              <div class="pb-4 animated fadeIn"><a class="text-muted" href="#">TERMS OF USE</a></div>
+              <div class="pb-4 animated fadeIn"><a class="text-muted" href="#">INTELLECTUAL PROPERTY</a></div>
+              <div class="pb-4 animated fadeIn"><a class="text-muted" href="#">WARRANTY</a></div>
+            </div>
+          </li>
         </ul>
+
+        <div class="text-center" style="background: url(static/img/footer/footer--small.jpg) center bottom/100% auto no-repeat;">
+          <ul class="list-inline h6">
+            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+          </ul>
+          <div class="font-size-07">2017 CHROME INDUSTRIES</div>
+        </div>
       </div>
-
-
-
+      <div class="py-1 bg-dark text-center"><a class="text-white font-size-07" href="#">FREE RIDES <i class="material-icons align-middle">arrow_drop_up</i></a></div>
     </footer>
 
     <!-- Search Bar Modal -->
