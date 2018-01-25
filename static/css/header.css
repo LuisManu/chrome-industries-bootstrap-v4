@@ -21,15 +21,54 @@ header {
 #nav-second {
 	font-size: 0.7rem;
 }
-#nav-second-inner a span:hover {
-	/*border-bottom: 4px solid #cc092f;*/
-	/*color: #cc092f !important;*/
+
+/* == Dropdown anchor == */
+@media(min-width: 1281px) {
+	#nav-second-inner .nav-item {
+    	padding: 0 2.5rem !important;
+    }
 }
-.dropdown-product-categories a:hover {
-	/*color: #cc092f !important;*/
+/*#nav-second-inner .nav-item {
+	padding-left: 2.5rem !important;
+	padding-right: 2.5rem !important;
+}*/
+#nav-second-inner .nav-item:hover .nav-link {
+	color: #cc092f !important;
 }
+#nav-second-inner li:hover .nav-link > span:before {
+	height: 4px;
+}
+#nav-second-inner li span:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background: #cc092f;
+    backface-visibility: hidden;
+    transition: height .25s cubic-bezier(.4,.01,.1,1);
+}
+
+
+/* == Dropdown == */
 #nav-second-inner .dropdown-menu {
 	background-color: #efefef;
+	z-index: -1;
+}
+.dropdown .dropdown-menu {
+	margin-top: -100% !important;
+	display: block;
+
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+.dropdown:hover .nav-link + .dropdown-menu {
+   margin-top: 0 !important;
+}
+.dropdown:hover li {
+	color: #cc092f !important;
 }
 .dropdown-product-categories {
 	border-bottom: 1px solid #dcdcdc;
@@ -44,7 +83,7 @@ header {
 	border-right: none;
 }
 .dropdown-product-categories a div:nth-child(2) {
-	/*border-bottom: 2px solid #cc092f;*/
+	border-bottom: 2px solid #cc092f;
     -webkit-transition: width 0.5s;
     transition: width 0.5s;
 }
@@ -87,6 +126,8 @@ a:hover .bg-zoom {
 #nav-second .btn-group button:last-child {
 	margin-left: .1rem;
 }
+
+
 /* ==================================
 	Mobile nav
 ================================== */
@@ -112,12 +153,7 @@ a:hover .bg-zoom {
 #mobile-menu-accordion-submenu {
 	opacity: .5;
 }
-/*this line makes dropdown show on hover.*/
-.dropdown:hover .dropdown-menu {
-   /*display: block;*/
-}
 .navbar-search {
-	/*font-size: .8rem;*/
 	font-weight: bold;
 	opacity: .5;
 }

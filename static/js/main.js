@@ -1,9 +1,9 @@
 (function() {
-	$('.btn-hover').hover(
-		function() {
-			$(this).find('span').addClass('btn-line');
-		}, function() {
-			$(this).find('span').removeClass('btn-line');
-		}
-	);
+    $('.free-rides a').click(function(e) {
+        e.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: $('body').offset().top
+        }, 1000);
+    });
 })();
