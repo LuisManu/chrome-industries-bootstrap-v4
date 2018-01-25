@@ -889,10 +889,15 @@
 
       <div class="d-sm-none">
         <ul class="list-group list-group-flush text-uppercase font-weight-bold font-size-07" id="mobile-footer-accordion" data-children=".item">
-          <li class="list-group-item item" data-toggle="collapse" data-parent="#mobile-footer-accordion" href="#mobile-footer-accordion1" role="button" aria-expanded="false" aria-controls="mobile-footer-accordion1">
-            <div class="mx-4 py-4">
+          <li class="list-group-item item">
+            <!-- <a class="mx-4 py-4" data-toggle="collapse" data-parent="#mobile-footer-accordion" href="#mobile-footer-accordion1" role="button" aria-expanded="false" aria-controls="mobile-footer-accordion1">
               COMPANY <i class="material-icons float-right font-size-07">add</i>
-            </div>
+            </a> -->
+
+            <button class="btn w-100" type="button" data-toggle="collapse" data-target="#mobile-footer-accordion1" aria-expanded="false" aria-controls="mobile-footer-accordion1">
+              <span class="float-left font-weight-bold font-size-07">COMPANY</span> 
+              <i class="material-icons float-right font-weight-bold font-size-07">add</i>
+            </button>
 
             <div class="p-4 px-5 collapse" id="mobile-footer-accordion1" role="tabpanel">
               <div class="pb-4 animated fadeIn"><a class="text-muted" href="#">OUR STORY</a></div>

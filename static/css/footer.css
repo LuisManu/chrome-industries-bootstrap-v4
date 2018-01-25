@@ -61,7 +61,7 @@ footer input.form-control:focus,
 footer button.btn:focus {
 	box-shadow: none;
 }
-footer button.btn:hover {
+footer .d-none.d-sm-block button.btn:hover {
 	background-color: transparent;
 	color: #cc092f !important;
 }
