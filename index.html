@@ -802,7 +802,7 @@
         </div>
       </div>
 
-      <div style="background: url('static/img/footer/footer--large.jpg') bottom center no-repeat #efefef; height: 906px;" id="footer-bottom">
+      <div class ="d-none d-sm-block" style="background: url('static/img/footer/footer--large.jpg') bottom center no-repeat #efefef; height: 906px;" id="footer-bottom">
         <div class="container">
           <div class="row p-5 mx-4">
             <div class="col-md-3">
@@ -872,7 +872,7 @@
         </div>
       </div>
 
-      <div class="container-fluid bg-dark text-white">
+      <div class="container-fluid d-none d-sm-block bg-dark text-white">
         <div class="row">
           <div class="col-10 pl-5 py-3 font-weight-bold font-size-07 text-grey letter-spacing-08">
             2017 © CHROME INDUSTRIES, INC.
@@ -886,6 +886,30 @@
           </div>
         </div>
       </div>
+
+      <div class="d-sm-none">
+        <ul class="list-group list-group-flush text-uppercase font-weight-bold font-size-07" id="mobile-footer-accordion" data-children=".item">
+          <li class="list-group-item item" data-toggle="collapse" data-parent="#mobile-footer-accordion" href="#mobile-footer-accordion1" role="button" aria-expanded="false" aria-controls="mobile-footer-accordion1">
+            <div class="mx-4 py-4">
+              COMPANY <i class="material-icons float-right font-size-07">add</i>
+            </div>
+
+            <div class="p-4 px-5 collapse" id="mobile-footer-accordion1" role="tabpanel">
+              <div class="pb-4 animated fadeIn"><a class="text-muted" href="#">OUR STORY</a></div>
+              <div class="pb-4 animated fadeIn"><a class="text-muted" href="#">OUR STORES</a></div>
+              <div class="pb-4 animated fadeIn"><a class="text-muted" href="#">BECOME A DEALER</a></div>
+              <div class="pb-4 animated fadeIn"><a class="text-muted" href="#">DEALER LOGIN</a></div>
+              <div class="pb-4 animated fadeIn"><a class="text-muted" href="#">PRO DEAL APPLICATION</a></div>
+              <div class="pb-4 animated fadeIn"><a class="text-muted" href="#">AFFILIATE PROGRAM</a></div>
+              <div class="pb-4 animated fadeIn"><a class="text-muted" href="#">CAREERS</a></div>
+              <div class="pb-4 animated fadeIn"><a class="text-muted" href="#">GIFT CARDS</a></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+
+
     </footer>
 
     <!-- Search Bar Modal -->
@@ -913,13 +937,13 @@
       </div>
     </div>
 
-    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+    <!-- <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <script type="text/javascript" src="bower_components/waypoints/lib/jquery.waypoints.js"></script>
+    <script type="text/javascript" src="bower_components/waypoints/lib/jquery.waypoints.js"></script> -->
 
-    <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script> -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 
     <script type="text/javascript" src="static/js/navbar/mobile/header.js"></script>
     <script type="text/javascript" src="static/js/navbar/desktop/scrollStickyHeader.js"></script>

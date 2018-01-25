@@ -74,8 +74,8 @@ footer .position-relative.overflow-hidden.p-3.p-md-5.m-md-3.text-center {
     height: 2px;
     display: block;
 }
-footer .fa,
-footer li {
+footer .d-none.d-sm-block .fa,
+footer .d-none.d-sm-block li {
     color: #777;
 }
 footer .fa:hover {
