@@ -117,8 +117,12 @@ a:hover .bg-zoom {
 .dropdown-submenu .row .col-lg-3 a:hover .d-flex.align-items-center.h-100 {
 	background-color: rgba(0, 0, 0, 0.3);
 }
-#nav-second .btn-group button:first-child {
+#nav-second .btn-group button {
 	line-height: 1;
+}
+#nav-second .btn-group button .material-icons {
+	/*line-height: 1;*/
+	font-size: 1.25rem;
 }
 #nav-second .btn-group button:last-child {
 	margin-left: .1rem;

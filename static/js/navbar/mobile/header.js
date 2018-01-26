@@ -35,7 +35,7 @@
 			setTimeout(function () {
 				menuButton.toggleClass(spinState);
 				menuButton.html(menuButtonState);
-			}, 700);
+			}, 500);
 			if (navLink.hasClass('nav-link')) {
 				navLink.toggleClass('bg-grey').toggleClass('mx-4').toggleClass('px-4');
 			}

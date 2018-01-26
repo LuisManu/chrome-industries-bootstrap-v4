@@ -112,3 +112,6 @@ footer .d-md-none div.text-center {
     padding-top: 3.5rem;
     padding-bottom: 4rem;
 }
+footer .list-group-flush:last-child .list-group-item:last-child {
+     border-bottom: 1px solid rgba(0,0,0,.125);
+}
