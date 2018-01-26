@@ -28,10 +28,6 @@ header {
     	padding: 0 2.5rem !important;
     }
 }
-/*#nav-second-inner .nav-item {
-	padding-left: 2.5rem !important;
-	padding-right: 2.5rem !important;
-}*/
 #nav-second-inner .nav-item:hover .nav-link {
 	color: #cc092f !important;
 }
@@ -147,16 +143,6 @@ a:hover .bg-zoom {
 #mobile-collapse #mobile-menu-accordion-submenu ul:first-child {
 	border-bottom: 1px solid #292929 !important;
 }
-
-#mobile-menu-accordion li div,
-#mobile-menu-accordion .nav-link .material-icons,
-#mobile-menu-accordion-submenu {
-	opacity: .5;
-}
-.navbar-search {
-	font-weight: bold;
-	opacity: .5;
-}
-.navbar-search:focus {
+#search-modal input:focus {
 	box-shadow: none;
 }
