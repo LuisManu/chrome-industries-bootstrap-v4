@@ -10,7 +10,7 @@
 		$(this).find('.material-icons').find('span').html(navbarState);
 	});
 	
-	$(document).on('click', '#mobile-menu-accordion .nav-link', function() {
+	$(document).on('click', '.spinner', function() {
 		var navLink = $(this);
 		var menuButton = navLink.find('.material-icons');
 		var menuButtonState = menuButton.html();
@@ -36,25 +36,10 @@
 				menuButton.toggleClass(spinState);
 				menuButton.html(menuButtonState);
 			}, 700);
-
-			navLink.toggleClass('bg-grey').toggleClass('mx-4').toggleClass('px-4');
+			if (navLink.hasClass('nav-link')) {
+				navLink.toggleClass('bg-grey').toggleClass('mx-4').toggleClass('px-4');
+			}
+			
 		}
 	});
-	
-
-	// $('.dropdown').hover(
-	// 	function() {
-	// 		$(this).find('.dropdown-menu').addClass('d-block').addClass('slideInDown');
-	// 	}, function() {
-	// 		$(this).find('.dropdown-menu').removeClass('d-block');
-	// 	}
-	// );
-
-	// $('.dropdown-product-categories a').hover(
-	// 	function() {
-	// 		$(this).find(':first-child').removeClass('pt-2');
-	// 	}, function() {
-	// 		$(this).find(':first-child').addClass('pt-2');
-	// 	}
-	// );
 })();

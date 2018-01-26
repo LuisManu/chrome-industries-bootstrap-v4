@@ -19,7 +19,6 @@
 	var waypoint = new Waypoint({
 		element: document.getElementsByTagName('footer'),
 		handler: function(direction) {
-			console.log(direction);
 			if (direction == 'down') {
 				$('#nav-second').addClass('mt-n-80');
 				$('#nav-second').removeClass('mt-0');

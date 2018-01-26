@@ -137,7 +137,7 @@ a:hover .bg-zoom {
 }
 #mobile-collapse {
 	overflow-y: scroll;
-	max-height: 86vh;
+	max-height: 90vh;
 }
 #mobile-collapse #mobile-menu-accordion li .nav-link,
 #mobile-collapse #mobile-menu-accordion-submenu ul:first-child {

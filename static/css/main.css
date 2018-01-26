@@ -95,9 +95,9 @@ a:hover {
 .tagline {
     font-family: akzidenz-grotesk-condensed,akzidenz-grotesk,helvetica,sans-serif;
 }
-/*.bg-grey {
+.bg-grey {
 	background-color: #2c2c2c;
-}*/
+}
 .bg-opaque {
 	background-color: rgba(0, 0, 0, 0.6);
 }
