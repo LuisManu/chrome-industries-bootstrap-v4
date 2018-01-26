@@ -148,6 +148,9 @@ a:hover .bg-zoom {
 #mobile-collapse #mobile-menu-accordion-submenu ul:first-child {
 	border-bottom: 1px solid #292929 !important;
 }
+#search-modal .material-icons {
+	font-size: 1.25rem;
+}
 #search-modal input:focus {
 	box-shadow: none;
 }
