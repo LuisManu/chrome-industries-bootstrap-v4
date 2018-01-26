@@ -1,14 +1,19 @@
 body {
 	font-family: akzidenz-grotesk,akzidenz-grotesk,helvetica,sans-serif;
 	color: #191919 !important;
-	padding-top: 4.2rem;
+	padding-top: 3.4rem;
 }
 @media(min-width: 992px) {
 	body {
 		padding-top: 6.9rem;
 	}
 }
-
+@media (min-width: 576px) {
+	body {
+		
+		padding-top: 4.2rem;
+	}
+}
 
 /*// Extra small devices (portrait phones, less than 576px)*/
 /*// No media query since this is the default in Bootstrap*/
@@ -21,9 +26,9 @@ body {
 
 /*// Large devices (desktops, 992px and up)*/
 @media (max-width: 992px) {
-.display-1 {
-	font-size: 8vmin;
-}
+	.display-1 {
+		font-size: 8vmin;
+	}
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/

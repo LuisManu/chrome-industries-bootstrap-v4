@@ -135,6 +135,9 @@ a:hover .bg-zoom {
 #logo-header-mobile {
 	width: 150px;
 }
+#logo-header-mobile-phone {
+	max-width: 8rem;
+}
 #mobile-collapse {
 	overflow-y: scroll;
 	max-height: 90vh;

@@ -512,6 +512,7 @@
 
     <!-- Mobile nav/header -->
     <header id="mobile-header">
+      <!-- Tablet sized nav -->
       <nav class="d-none d-sm-flex d-lg-none navbar navbar-dark bg-dark fixed-top text-white p-1">
         <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#mobile-collapse" aria-controls="mobile-collapse" aria-expanded="false" aria-label="Toggle navigation">
           <i class="material-icons text-white"><span class="h2">menu</span></i>
@@ -524,7 +525,7 @@
         <ul class="list-inline my-auto">
           <li class="list-inline-item pr-3">
             <button class="btn bg-dark p-0" data-toggle="modal" data-target="#search-modal">
-              <i class="material-icons text-white"><span class="h2">search</span></i>
+              <i class="material-icons"><span class="h2 text-white">search</span></i>
             </button>
           </li>
 
@@ -539,22 +540,23 @@
         </ul>
       </nav>
 
+      <!-- Phone size nav -->
       <nav class="d-sm-none navbar navbar-dark bg-dark fixed-top text-white p-1">
-        <a class="navbar-brand mr-auto" href="#">
-          <img class="img-fluid" id="logo-header-mobile" src="static/img/mobile-logo-header.svg">
+        <a class="navbar-brand mr-auto py-0" href="#">
+          <img class="img-fluid" id="logo-header-mobile-phone" src="static/img/mobile-logo-header.svg">
         </a>
 
         <ul class="list-inline my-auto">
-          <li class="list-inline-item pr-3">
+          <li class="list-inline-item">
             <button class="btn bg-dark p-0" data-toggle="modal" data-target="#search-modal">
-              <i class="material-icons text-white"><span class="h2">search</span></i>
+              <i class="material-icons"><span class="h4 text-white">search</span></i>
             </button>
           </li>
 
-          <li class="list-inline-item pr-3">
+          <li class="list-inline-item">
             <button class="btn bg-dark p-0">
-              <i class="material-icons"><span class="h2 text-white">work</span></i>
-              <span class="position-absolute text-dark" style="right: 5.6rem; top: 1.5rem; font-size: 70%;">
+              <i class="material-icons"><span class="h4 text-white">work</span></i>
+              <span class="position-absolute text-dark" style="right: 4.4rem; top: 1.2rem; font-size: 70%;">
                 <strong>0</strong>
               </span>
             </button>
