@@ -135,9 +135,6 @@ a:hover .bg-zoom {
 #logo-header-mobile {
 	width: 150px;
 }
-#logo-header-mobile-phone {
-	max-width: 8rem;
-}
 #mobile-collapse {
 	overflow-y: scroll;
 	max-height: 90vh;
@@ -148,4 +145,26 @@ a:hover .bg-zoom {
 }
 #search-modal input:focus {
 	box-shadow: none;
+}
+.mobile-nav-icon {
+	font-size: 1.5rem;
+}
+.cart-count {
+	right: 5.4rem;
+	top: 1.1rem;
+}
+#logo-header-mobile {
+	max-width: 8rem;
+}
+@media (min-width: 576px) {
+	.mobile-nav-icon {
+		font-size: 2rem;
+	}
+	.cart-count {
+		right: 2.6rem;
+		top: 1.5rem;
+	}
+	#logo-header-mobile {
+		max-width: none;
+	}
 }

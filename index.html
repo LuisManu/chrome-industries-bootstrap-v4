@@ -512,60 +512,52 @@
 
     <!-- Mobile nav/header -->
     <header id="mobile-header">
-      <!-- Tablet sized nav -->
-      <nav class="d-none d-sm-flex d-lg-none navbar navbar-dark bg-dark fixed-top text-white p-1">
-        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#mobile-collapse" aria-controls="mobile-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="d-lg-none navbar navbar-dark bg-dark fixed-top text-white p-1">
+
+
+
+
+
+
+
+
+
+        <button class="d-none d-sm-flex d-lg-none navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#mobile-collapse" aria-controls="mobile-collapse" aria-expanded="false" aria-label="Toggle navigation">
           <i class="material-icons text-white"><span class="h2">menu</span></i>
         </button>
 
-        <a class="navbar-brand mx-auto" href="#">
+        <a class="navbar-brand mr-auto mx-sm-auto py-0 py-sm-1" href="#">
           <img class="img-fluid" id="logo-header-mobile" src="static/img/mobile-logo-header.svg">
         </a>
 
         <ul class="list-inline my-auto">
-          <li class="list-inline-item pr-3">
+          <li class="list-inline-item pr-3 mr-0 mr-sm-2">
             <button class="btn bg-dark p-0" data-toggle="modal" data-target="#search-modal">
-              <i class="material-icons"><span class="h2 text-white">search</span></i>
+              <i class="material-icons"><span class="mobile-nav-icon text-white">search</span></i>
             </button>
           </li>
 
-          <li class="list-inline-item pr-3">
+          <li class="list-inline-item pr-3 mr-0 mr-sm-2">
             <button class="btn bg-dark p-0">
-              <i class="material-icons"><span class="h2 text-white">work</span></i>
-              <span class="position-absolute text-dark" style="right: 2.1rem; top: 1.5rem; font-size: 70%;">
+              <i class="material-icons"><span class="mobile-nav-icon text-white">work</span></i>
+              <span class="position-absolute text-dark cart-count" style="font-size: 70%;">
                 <strong>0</strong>
               </span>
             </button>
           </li>
         </ul>
-      </nav>
 
-      <!-- Phone size nav -->
-      <nav class="d-sm-none navbar navbar-dark bg-dark fixed-top text-white p-1">
-        <a class="navbar-brand mr-auto py-0" href="#">
-          <img class="img-fluid" id="logo-header-mobile-phone" src="static/img/mobile-logo-header.svg">
-        </a>
-
-        <ul class="list-inline my-auto">
-          <li class="list-inline-item">
-            <button class="btn bg-dark p-0" data-toggle="modal" data-target="#search-modal">
-              <i class="material-icons"><span class="h4 text-white">search</span></i>
-            </button>
-          </li>
-
-          <li class="list-inline-item">
-            <button class="btn bg-dark p-0">
-              <i class="material-icons"><span class="h4 text-white">work</span></i>
-              <span class="position-absolute text-dark" style="right: 4.4rem; top: 1.2rem; font-size: 70%;">
-                <strong>0</strong>
-              </span>
-            </button>
-          </li>
-        </ul>
-        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#mobile-collapse" aria-controls="mobile-collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="d-sm-none navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#mobile-collapse" aria-controls="mobile-collapse" aria-expanded="false" aria-label="Toggle navigation">
           <i class="material-icons text-white"><span class="h2">menu</span></i>
         </button>
-      </nav>
+
+
+
+
+
+
+
+
 
         <div class="collapse navbar-collapse pt-3 bg-dark" id="mobile-collapse">
           <ul class="navbar-nav mr-auto text-uppercase" id="mobile-menu-accordion" data-children=".item">
@@ -663,6 +655,36 @@
             </ul>
           </div>
         </div>
+      <!-- </nav> -->
+
+      <!-- Phone size nav -->
+      <!-- <nav class="d-sm-none navbar navbar-dark bg-dark fixed-top text-white p-1">
+        <a class="navbar-brand mr-auto py-0" href="#">
+          <img class="img-fluid" id="logo-header-mobile-phone" src="static/img/mobile-logo-header.svg">
+        </a>
+
+        <ul class="list-inline my-auto">
+          <li class="list-inline-item">
+            <button class="btn bg-dark p-0" data-toggle="modal" data-target="#search-modal">
+              <i class="material-icons"><span class="h4 text-white">search</span></i>
+            </button>
+          </li>
+
+          <li class="list-inline-item">
+            <button class="btn bg-dark p-0">
+              <i class="material-icons"><span class="h4 text-white">work</span></i>
+              <span class="position-absolute text-dark" style="right: 4.4rem; top: 1.2rem; font-size: 70%;">
+                <strong>0</strong>
+              </span>
+            </button>
+          </li>
+        </ul>
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#mobile-collapse" aria-controls="mobile-collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="material-icons text-white"><span class="h2">menu</span></i>
+        </button>
+      </nav> -->
+
+
       </nav>
     </header>
 
@@ -1016,13 +1038,13 @@
       </div>
     </div>
 
-    <!-- <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <script type="text/javascript" src="bower_components/waypoints/lib/jquery.waypoints.js"></script> -->
+    <script type="text/javascript" src="bower_components/waypoints/lib/jquery.waypoints.js"></script>
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script> -->
 
     <script type="text/javascript" src="static/js/navbar/mobile/header.js"></script>
     <script type="text/javascript" src="static/js/navbar/desktop/scrollStickyHeader.js"></script>
