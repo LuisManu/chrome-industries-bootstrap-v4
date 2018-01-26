@@ -512,7 +512,7 @@
 
     <!-- Mobile nav/header -->
     <header id="mobile-header">
-      <nav class="navbar navbar-dark bg-dark fixed-top text-white d-lg-none p-1">
+      <nav class="d-none d-sm-flex d-lg-none navbar navbar-dark bg-dark fixed-top text-white p-1">
         <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#mobile-collapse" aria-controls="mobile-collapse" aria-expanded="false" aria-label="Toggle navigation">
           <i class="material-icons text-white"><span class="h2">menu</span></i>
         </button>
@@ -537,6 +537,33 @@
             </button>
           </li>
         </ul>
+      </nav>
+
+      <nav class="d-sm-none navbar navbar-dark bg-dark fixed-top text-white p-1">
+        <a class="navbar-brand mr-auto" href="#">
+          <img class="img-fluid" id="logo-header-mobile" src="static/img/mobile-logo-header.svg">
+        </a>
+
+        <ul class="list-inline my-auto">
+          <li class="list-inline-item pr-3">
+            <button class="btn bg-dark p-0" data-toggle="modal" data-target="#search-modal">
+              <i class="material-icons text-white"><span class="h2">search</span></i>
+            </button>
+          </li>
+
+          <li class="list-inline-item pr-3">
+            <button class="btn bg-dark p-0">
+              <i class="material-icons"><span class="h2 text-white">work</span></i>
+              <span class="position-absolute text-dark" style="right: 5.6rem; top: 1.5rem; font-size: 70%;">
+                <strong>0</strong>
+              </span>
+            </button>
+          </li>
+        </ul>
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#mobile-collapse" aria-controls="mobile-collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="material-icons text-white"><span class="h2">menu</span></i>
+        </button>
+      </nav>
 
         <div class="collapse navbar-collapse pt-3 bg-dark" id="mobile-collapse">
           <ul class="navbar-nav mr-auto text-uppercase" id="mobile-menu-accordion" data-children=".item">
