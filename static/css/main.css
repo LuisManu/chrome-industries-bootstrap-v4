@@ -1,7 +1,7 @@
 body {
 	font-family: akzidenz-grotesk,akzidenz-grotesk,helvetica,sans-serif;
 	color: #191919 !important;
-	padding-top: 3.2rem;
+	padding-top: 3rem;
 }
 @media(min-width: 992px) {
 	body {
